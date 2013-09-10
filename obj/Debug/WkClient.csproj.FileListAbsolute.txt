@@ -1,0 +1,5 @@
+D:\MsProject\WkClient\WkClient\bin\WkClient.dll
+D:\MsProject\WkClient\WkClient\bin\WkClient.pdb
+D:\MsProject\WkClient\WkClient\obj\Debug\ResolveAssemblyReference.cache
+D:\MsProject\WkClient\WkClient\obj\Debug\WkClient.dll
+D:\MsProject\WkClient\WkClient\obj\Debug\WkClient.pdb
