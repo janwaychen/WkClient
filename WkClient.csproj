@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="PaymentError.aspx" />
+    <Content Include="PaymentResult.aspx" />
+    <Content Include="PaymentTalk.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +66,27 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentError.aspx.cs">
+      <DependentUpon>PaymentError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentError.aspx.designer.cs">
+      <DependentUpon>PaymentError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentResult.aspx.cs">
+      <DependentUpon>PaymentResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentResult.aspx.designer.cs">
+      <DependentUpon>PaymentResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentTalk.aspx.cs">
+      <DependentUpon>PaymentTalk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentTalk.aspx.designer.cs">
+      <DependentUpon>PaymentTalk.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -83,8 +107,8 @@
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
-          <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>24030</DevelopmentServerPort>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>2672</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
